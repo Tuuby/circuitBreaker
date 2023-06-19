@@ -31,4 +31,4 @@ app.get('/reset', (req, res) => {
     res.status(200).send('Switched to normal state.');
 })
 
-app.listen(3000, () => console.log('App is listening on port 3000.'));
+app.listen(3001, () => console.log('App is listening on port 3001.'));
